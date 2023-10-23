@@ -13,8 +13,8 @@
                 <header class="one">
                     <div class="logo">
                         <h1>🚀Changelly</h1>
-                        <button onclick="myFunction()">personal</button>
-                        <button onclick="mySecondFunction()">Bussiness</button>
+                        <button onclick="myFunction()" class="brop-header">personal</button>
+                        <button onclick="mySecondFunction()" class="brop-header">Bussiness</button>
                     </div>
                         
                              <div id="myDropdown" class="dropdown-content">
@@ -35,9 +35,9 @@
                             </div>
     
                     
-                        <div class="vip">
+                        <div class="vip flex">
                             <a class="vl" href=""><span>VIP TRADE</span></a>
-                            <a class="vl" href=""><img src="./IOS LOGO.png" alt="" width="20" height="25"></a>
+                            <a class="vl" href=""><img src="./IOS LOGO.png" alt="" width="20" height="25" class="ios"></a>
                             <a class="vl" href=""><img src="./PLAY STORE LOGO.webp" alt="" width="20" height="25"></a>
                             <a class="vl" href="">Download App</a>
                             <a class="vl" href="">Blog</a>
@@ -97,7 +97,10 @@
         <p class="text">Exchange Any Crypto</p>
         <p class="animation">Easily</p>
         <p id="below-animation">Exchange Bitcoin and 500+ altcoins in a fast, simple, and secure way.</p>
-        <a href=""><img src="./Screenshot 2023-09-27 151435 (2).png" alt="" class="image"></a>
+
+                                    <!-- pic-links -->
+        <div class="pic-links"><a href=""><img src="./img/coolwalet.png" alt=""> <img src="./img/trezor.png" alt=""> <img src="./img/ledger.png" alt=""> <img src="./img/exodus.png" alt=""> <img src="./img/coinomi.png" alt=""> <img src="./img/mew.png" alt=""></a></div>
+        
         
                                     <!-- 2boxex -->
         <div class="two-boxes">
@@ -126,13 +129,13 @@
                 <h1>💚 Users choose us</h1>
 
 
-                <p>Claire S. ⭐⭐⭐⭐⭐</p>
+                <p><b>Claire S. ⭐⭐⭐⭐⭐</b></p>
                 <p>I've used changelly.com over 30 times in the last<br> two years and the transactions always go smoothly.<br> Great service and I will continue to use it. Thanks!</p>
 
-                <p>Charles ⭐⭐⭐⭐⭐</p>
+                <p><b>Charles ⭐⭐⭐⭐⭐</b></p>
                 <p>Great service and quick transfer. Gonna use this <br> definitely more often, thanks.</p>
 
-                <p>Ernest R. ⭐⭐⭐⭐⭐</p>
+                <p><b>Ernest R. ⭐⭐⭐⭐⭐</b></p>
                 <p>I was skeptical at first but changelly.com is legit. I <br> sent them BTC from coinbase wallet and received <br> ETH in Metamask within minutes. If you need to swap BTC for ETH, they are the ones to..</p>
 
             </div>
@@ -141,26 +144,26 @@
         <div class="coin-box">
             <div>
                 <h1>Popular Crypto</h1>
-                <p>BTC</p>
-                <p>ETH</p>
-                <p>XRP</p>
-                <p>ADA</p>
+                <p><img src="./img/coin logos/Btc.jpg" alt="" width="20" height="20" id="logos">BTC</p>
+                <p><img src="./img/coin logos/Eth.jpg" alt="" width="20" height="20" id="logos">ETH</p>
+                <p><img src="./img/coin logos/Xrp.jpg" alt="" width="20" height="20" id="logos">XRP</p>
+                <p><img src="./img/coin logos/Ada.jpg" alt="" width="20" height="20" id="logos">ADA</p>
             </div>
             
             <div>
                 <h1>Top Gainers</h1>
-                <p>TRB</p>
-                <p>LUNA</p>
-                <p>ETN</p>
-                <p>STC</p>
+                <p><img src="./img/coin logos/Trb.jpg" alt="" width="20" height="20" id="logos">TRB</p>
+                <p><img src="./img/coin logos/Luna.jpg" alt="" width="20" height="20" id="logos">LUNA</p>
+                <p><img src="./img/coin logos/Etn.jpg" alt="" width="20" height="20" id="logos">ETN</p>
+                <p><img src="./img/coin logos/Stc.jpg" alt="" width="20" height="20" id="logos">STC</p>
             </div>
             
             <div>
                 <h1>Top Losers</h1>
-                <p>BLZ</p>
-                <p>VTHO</p>
-                <p>MXC</p>
-                <p>DCN</p>
+                <p><img src="./img/coin logos/Blz.jpg" alt="" width="20" height="20" id="logos">BLZ</p>
+                <p><img src="./img/coin logos/Vtho.jpg" alt="" width="20" height="20" id="logos">VTHO</p>
+                <p><img src="./img/coin logos/Mxc.jpg" alt="" width="20" height="20" id="logos">MXC</p>
+                <p><img src="./img/coin logos/Dcn.jpg" alt="" width="20" height="20" id="logos">DCN</p>
             </div>
         </div>
                                     <!-- Subscribe button -->
@@ -183,6 +186,8 @@
         </div>
 
                                      <!-- three cards -->
+
+        <h5 class="reviews">Reviews</h5>
         <div class="three-cards">
             <div id="card-1">
                 <p>Javier L., AppStore <br> ⭐⭐⭐⭐⭐ <br><br>I am extremely delighted with <br>the exceptional service provided <br>by the Changelly crypto swap <br> app.
@@ -300,7 +305,7 @@
 
 
         <div id="last-div">
-            <div class="lastimg"><img src="./lastimg (2).png" alt=""></div>
+            <!-- <div class="lastimg"><img src="./lastimg (2).png" alt=""></div> -->
 
         <!-- last part before footer  -->
 
@@ -350,7 +355,7 @@
                 <p><a href="">AML/KYC</a></p>
             </div>
 
-            <div><a href=""><img src="./scanner 2.png" alt="" width="160" height="260"></div></a>
+            <div><a href=""><img src="./scanner 2.png" alt="" width="160" height="260" id="last-scanner"></div></a>
         </div>
 
         <div class="ending-2">
